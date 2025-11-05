@@ -95,12 +95,12 @@ app.get("/hello", (req, res) => {
 
 app.get("/endpoints", (req, res) => {
   const template = [
-    { path: "https://smart-divices-develop.onrender.com/createCard", method: "POST", description: "Creates a new card in the database" },
-    { path: "https://smart-divices-develop.onrender.com/getAllCards", method: "GET", description: "Retrieves all cards" },
-    { path: "https://smart-divices-develop.onrender.com/getCard/:id", method: "GET", description: "Retrieves a card by ID" },
-    { path: "https://smart-divices-develop.onrender.com/updateCard/:id", method: "PATCH", description: "Partially updates a card by ID" },
-    { path: "https://smart-divices-develop.onrender.com/updateCard/:id", method: "PUT", description: "Fully updates a card by ID" },
-    { path: "https://smart-divices-develop.onrender.com/deleteCard/:id", method: "DELETE", description: "Deletes a card by ID" },
+    { path: "https://proyecto-de-victor.onrender.com/createCard", method: "POST", description: "Creates a new card in the database" },
+    { path: "https://proyecto-de-victor.onrender.com/getAllCards", method: "GET", description: "Retrieves all cards" },
+    { path: "https://proyecto-de-victor.onrender.com/getCard/:id", method: "GET", description: "Retrieves a card by ID" },
+    { path: "https://proyecto-de-victor.onrender.com/updateCard/:id", method: "PATCH", description: "Partially updates a card by ID" },
+    { path: "https://proyecto-de-victor.onrender.com/updateCard/:id", method: "PUT", description: "Fully updates a card by ID" },
+    { path: "https://proyecto-de-victor.onrender.com/deleteCard/:id", method: "DELETE", description: "Deletes a card by ID" },
   ];
 
   res.json(template);
