@@ -1,0 +1,18 @@
+.header {
+  min-height: 120px;
+  font-family: "Inter", Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  /* Use RGBA to specify opacity */
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+  color: beige;
+  justify-content: flex-start;
+}
+
+/* The best solution is shown here - suggest it in "Could be improved" */
+
+.header__logo {
+  width: 173px;
+  height: 66px;
+  object-fit: contain;
+}
